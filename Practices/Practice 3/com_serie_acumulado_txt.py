@@ -9,6 +9,7 @@ tiempo = np.linspace(0,4950,100)
 ser = serial.Serial('COM4', 9600)
 
 y = []
+x = []
 j=0
 k=0
 p=0
@@ -21,6 +22,7 @@ while j < 100:
     dato = (ser.readline().decode("utf-8").strip())
     dato_fl = float(dato)
     y.append(dato_fl)
+    x.append(tiempo(j))
     plt.plot(dato_fl)
     plt.pause(0.01)
     plt.clf()
