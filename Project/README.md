@@ -11,5 +11,4 @@ el codigo c++ de la carpeta "Recogida_datos" y procesadas con el archivo matlab 
 y se ha creado un .csv y un excel donde se ubican todos los datos tomados de cada persona asi como las variables más interesantes graficadas (estos archivos 
 estan ubicados en la misma carpeta) 
 
-Y por último se ha comparado los distintos sensores IMU disponibles en el mercado y distintos circuitos de alimentación de estos, donde se ha hecho un análisis de
-cuál es la mejor opción.
+Y por último se ha comparado en un excel uicado en la carpeta "Componentes elegidos", los distintos sensores IMU disponibles en el mercado y distintos circuitos de alimentación de estos, donde se ha hecho un análisis decuál es la mejor opción.
